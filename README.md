@@ -1,7 +1,7 @@
 # Cálculo de Temperaturas Promedio
 
-Este proyecto en Python calcula la temperatura promedio de varias ciudades a lo largo de un período de semanas y días.  
-Forma parte de una tarea universitaria para practicar el manejo de listas multidimensionales y el uso de funciones en Python.
+Este programa en calcula la temperatura promedio de varias ciudades a lo largo de un período de semanas y días.  
+
 
 ---
 
