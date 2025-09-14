@@ -36,4 +36,5 @@ def calcular_promedios(ciudades, dias, semanas, temperaturas):
         promedio_ciudad = suma_total / conteo
         print(f"Ciudad: {ciudad} → Promedio total = {promedio_ciudad:.2f}°C")
 
-
+#Llamada a la función
+calcular_promedios(ciudades, dias, semanas, temperaturas)
