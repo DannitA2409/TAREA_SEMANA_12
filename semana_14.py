@@ -14,5 +14,15 @@ print("Primera compra:")
 print("Monto total: $", monto1)
 print("Descuento aplicado: $", descuento1)
 print("Monto final a pagar: $", monto_final1)
-print("---------------")
+print("---------------------------")
 
+# Segunda llamada a la función
+# Se pasa el monto y un descuento diferente
+monto2 = 200
+descuento2 = calcular_descuento(monto2, 20)
+monto_final2 = monto2 - descuento2
+
+print("Segunda compra:")
+print("Monto total: $", monto2)
+print("Descuento aplicado: $", descuento2)
+print("Monto final a pagar: $", monto_final2)
