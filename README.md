@@ -1,18 +1,6 @@
-# Cálculo de Temperaturas Promedio
+# Repositorio tareas FUNDAMENTOS DE PROGRAMACION (D) 
 
-Este programa en calcula la temperatura promedio de varias ciudades a lo largo de un período de semanas y días.  
-
-
----
-
-## Descripción
-El programa recibe como datos:
-- Una lista de ciudades.
-- Una lista de días de la semana.
-- El número de semanas a analizar.
-- Una matriz 3D con las temperaturas de cada ciudad (ciudad × semana × día).
-
-Con estos datos, la función `calcular_promedios()` calcula la temperatura promedio de cada ciudad durante todo el período registrado.
+Este repositorio contiene el código fuente de las tareas de la materia de FUNDAMENTOS DE PROGRAMACION (D) a partir de la semana 12
 
 ---
 
@@ -26,20 +14,17 @@ cd TAREA_SEMANA_12
 ## Estructura del Proyecto
 ```bash
 TAREA_SEMANA_12/
-├── temperaturas.py # Código principal con la función
-├── README.md # Documentación del proyecto
+├── semana_12.py # Código semana 12
+├── semana_13.py # Código semana 13
+├── semana_14.py # Código semana 14
+├── README.md # Documentación del repositorio
 ```
 
 ## Ejecutar el programa:
+Se puede hacer desde el terminal, ubicando el directorio del archivo y usando el comando `python nombre_del_archivo.py`
+Poir ejemplo:
 ```bash
-    python temperaturas.py
-```
-
-## Salida esperada (ejemplo):
-```bash
-Ciudad: Quito → Promedio total = 20.57°C
-Ciudad: Guayaquil → Promedio total = 30.43°C
-Ciudad: Cuenca → Promedio total = 15.57°C
+    python semana_12.py
 ```
 
 
