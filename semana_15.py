@@ -42,4 +42,15 @@ print("Diccionario con teléfono:")
 print(informacion_personal)
 
 
+# ELIMINAR UNA CLAVE
+# Verificar si la clave existe antes de eliminarla (buena práctica)
+if "edad" in informacion_personal:
+    edad_eliminada = informacion_personal.pop("edad")
+    print(f"Edad eliminada: {edad_eliminada}")
+else:
+    print("La clave 'edad' no existe en el diccionario")
+
+print("Diccionario sin edad:")
+print(informacion_personal)
+
 
