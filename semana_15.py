@@ -7,10 +7,10 @@ informacion_personal = {
     "ciudad": "Guayaquil"
 }
 print(f"Diccionario inicial: {informacion_personal}")
-print()
+
 
 # ACCEDER Y MODIFICAR VALORES
-print("-------- Accediendo y modificando valores ---------")
+print("\n---------------------------------------- Accediendo y modificando valores ----------------------------------------")
 
 # Acceder al valor de la clave "ciudad"
 ciudad_actual = informacion_personal["ciudad"]
@@ -23,5 +23,23 @@ print(f"Ciudad modificada: {informacion_personal['ciudad']}")
 # Agregar nueva clave-valor para "profesion"
 informacion_personal["profesion"] = "Ingeniera en tecnologías de la información"
 print(f"Profesión agregada: {informacion_personal['profesion']}")
-print(f"Diccionario después de modificaciones: {informacion_personal}")
+print("Diccionario después de modificaciones:")
+print(informacion_personal)
+
+
+# VERIFICAR EXISTENCIA DE CLAVES
+print("\n---------------------------------------- Verificando existencia de claves ----------------------------------------")
+
+# Verificar si existe la clave "telefono"
+if "telefono" in informacion_personal:
+    print("La clave 'telefono' ya existe en el diccionario")
+else:
+    # Agregar teléfono ficticio si no existe
+    informacion_personal["telefono"] = "0912345678"
+    print(f"Teléfono agregado: {informacion_personal['telefono']}")
+
+print("Diccionario con teléfono:")
+print(informacion_personal)
+
+
 
