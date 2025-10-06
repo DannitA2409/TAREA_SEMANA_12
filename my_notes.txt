@@ -1,0 +1,3 @@
+Hoy aprendí a usar archivos de texto en Python.
+Los modos 'w' y 'r' sirven para escribir y leer.
+Siempre debo cerrar los archivos después de usarlos.
